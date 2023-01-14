@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpPage"
+    android:orientation="vertical"
+    android:background="@drawable/bluegradientbackground">
+    <ImageView
+        android:id="@+id/signupPageImage"
+        android:layout_width="match_parent"
+        android:layout_height="261dp"
+        android:src="@drawable/appfirstpageimage" />
+    <TextView
+        android:id="@+id/signuppagetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/signuppagetext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Homeless People Aid"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="35sp"/>
+
+    <EditText
+        android:id="@+id/signuppageentername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:inputType="text"
+        android:hint="@string/enter_name"/>
+
+    <EditText
+        android:id="@+id/signuppageenteremail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/enter_your_email"/>
+
+    <EditText
+        android:id="@+id/signuppageenterpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:inputType="textPassword"
+        android:hint="@string/enter_password"/>
+
+    <EditText
+        android:id="@+id/signuppageenterphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:inputType="phone"
+        android:hint="@string/contact_no"/>
+    <EditText
+        android:id="@+id/signuppageaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:inputType="text"
+        android:hint="@string/enter_address"/>
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        android:id="@+id/signuppagesignupbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#808080"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="@string/sign_up"
+        android:textColor="#000"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluegradientbackground"
+    tools:context=".FirstPage"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/firstPageImage"
+        android:layout_width="match_parent"
+        android:layout_height="261dp"
+        android:src="@drawable/appfirstpageimage" />
+
+    <TextView
+        android:id="@+id/firstPageText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Help the Homeless People"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+        />
+
+
+    <Button
+        android:id="@+id/firstPageLoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="@string/log_in"
+        android:backgroundTint="#000"
+        android:textSize="14sp"
+        android:textAllCaps="true"
+
+        />
+
+    <Button
+        android:id="@+id/firstPageSignupButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/sign_up"
+        android:backgroundTint="#000"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:textFontWeight="1"
+        />
+
+</LinearLayout>

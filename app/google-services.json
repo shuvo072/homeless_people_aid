@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "16879458320",
+    "project_id": "shouvo-mapapp",
+    "storage_bucket": "shouvo-mapapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16879458320:android:5d41787f5aee3965a05295",
+        "android_client_info": {
+          "package_name": "com.example.homelesspeopleaid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16879458320-5t6lliejtbses3d9bu57vkn31de56pno.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.homelesspeopleaid",
+            "certificate_hash": "0f29e97c4954aa554d9c83cec49856ed9b53b305"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXdaRvKejNeHQF7jUsoRU-5giIxJ8-KUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

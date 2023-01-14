@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShelterLocation"
+    android:background="@drawable/bluegradientbackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/hospitalplace1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Health Cure Hospital &amp; diagnostic Center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/hospitalhelpbutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Help"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            />
+        <Button
+            android:id="@+id/hospitalbutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            />
+        <ImageView
+            android:id="@+id/hospitalimageViewPhoneNo1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_baseline_call_24" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hospitalplace2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Raozan Upazila Health Complex"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/hospitalhelpbutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Help"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            />
+        <Button
+            android:id="@+id/hospitalbutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            />
+        <ImageView
+            android:id="@+id/hospitalimageViewPhoneNo2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_baseline_call_24" />
+    </LinearLayout>
+
+
+</LinearLayout>

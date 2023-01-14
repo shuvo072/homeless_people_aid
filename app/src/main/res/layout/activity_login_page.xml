@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginPage"
+    android:orientation="vertical"
+    android:background="@drawable/bluegradientbackground">
+
+    <ImageView
+        android:id="@+id/loginPageImage"
+        android:layout_width="match_parent"
+        android:layout_height="261dp"
+        android:src="@drawable/appfirstpageimage" />
+    <TextView
+        android:id="@+id/loginpagetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:id="@+id/loginpagetext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Homeless People Aid"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="35sp"/>
+
+    <EditText
+        android:id="@+id/loginpageenteremail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/enter_your_email"/>
+    <EditText
+        android:id="@+id/loginpageenterpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:inputType="textPassword"
+        android:hint="@string/enter_password"/>
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints"
+        />
+    <Button
+        android:id="@+id/loginpageloginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#808080"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/log_in"
+        android:textColor="#000"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/forgotpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/forgot_password"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="70dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:onClick="toforgetpass"/>
+
+        <TextView
+            android:id="@+id/tosignuppage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/register"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:onClick="tosignup"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

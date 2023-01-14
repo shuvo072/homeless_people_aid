@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Homeless People Aid</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="log_in">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="login_page_text">Welcome to Homeless People Aid</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_name">Enter your Name</string>
+    <string name="contact_no">Enter Contact No.</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register">Register</string>
+    <string name="resetpassword">Reset Password</string>
+    <string name="forgotpasstext">Provide your email to Recover Password</string>
+    <string name="google_maps_key">AIzaSyCiyYjij-frDlHMiJzi81jNkuQEc6yjQxg</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="title_activity_shelter_location_direction1">SHelterLocationDirection1</string>
+    <string name="title_activity_shelter_location_direction2">ShelterLocationDirection2</string>
+</resources>
